@@ -18,6 +18,7 @@ public class AudienceTest {
 		// System.out.println(mp);
 		// assertNotNull(performance);
 		performance.perform();
+		System.out.println("Testing");
 
 	}
 }
