@@ -7,12 +7,12 @@ public class CheckFileTypeImpl implements CheckFileType {
 		System.out.println("Checking File Extension");
 		String[] filePathArray = filePath.split("\\.");
 		// return filePathArray[1];
-		if (filePathArray[1].equalsIgnoreCase(FileType.CSV.name())) {
-			return FileType.CSV.name();
-		} else if (filePathArray[1].equalsIgnoreCase(FileType.EXCEL.name())) {
-			return FileType.EXCEL.name();
-		} else if (filePathArray[1].equalsIgnoreCase(FileType.XML.name())) {
-			return FileType.XML.name();
+		if (filePathArray[1].equalsIgnoreCase(FileType.CSV.getFileType())) {
+			return FileType.CSV.getFileType();
+		} else if (filePathArray[1].equalsIgnoreCase(FileType.EXCEL.getFileType())) {
+			return FileType.EXCEL.getFileType();
+		} else if (filePathArray[1].equalsIgnoreCase(FileType.XML.getFileType())) {
+			return FileType.XML.getFileType();
 		}
 		return null;
 	}

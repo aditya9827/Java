@@ -4,6 +4,7 @@ import com.adi.file.CheckFileName;
 import com.adi.file.CheckFileNameImpl;
 import com.adi.file.CheckFileType;
 import com.adi.file.CheckFileTypeImpl;
+import com.adi.file.processing.ProcessFileAsPerExtension;
 
 public class FeeCalculation {
 
@@ -12,10 +13,15 @@ public class FeeCalculation {
 	private String fileExtension;
 
 	public void beginFeeCalculation(String filePath) {
-		setFilePath(filePath);
+		this.filePath = filePath;
 		fileName = retrieveFilename(filePath);
 		fileExtension = retrieveFileExtension(fileName);
+		processFileAsPerExtension(fileExtension, this.filePath);
 
+	}
+
+	private void processFileAsPerExtension(String fileExtension2, String filePath) {
+		ProcessFileAsPerExtension.processFileAsPerExtension(fileExtension2, filePath);
 	}
 
 	private String retrieveFileExtension(String fileName2) {

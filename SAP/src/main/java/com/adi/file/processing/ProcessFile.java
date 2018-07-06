@@ -1,5 +1,5 @@
 package com.adi.file.processing;
 
 public interface ProcessFile {
-	public void processFile();
+	public void processFile(String filePath);
 }

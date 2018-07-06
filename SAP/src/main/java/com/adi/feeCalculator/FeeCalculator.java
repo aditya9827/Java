@@ -9,6 +9,8 @@ public class FeeCalculator {
 		
 		if(args.length != 0) {
 			System.out.println("File is available");
+			FeeCalculation calculateFee = new FeeCalculation();
+			calculateFee.beginFeeCalculation(args[0]);
 		} else {
 			System.out.println("File is not available at class path");
 		}

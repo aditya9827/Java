@@ -15,7 +15,7 @@ public class Transaction {
 
 	private Date transactionDate;
 
-	private BigDecimal marketValue;
+	private Double marketValue;
 
 	private boolean priorityFlag;
 
@@ -59,11 +59,11 @@ public class Transaction {
 		this.transactionDate = transactionDate;
 	}
 
-	public BigDecimal getMarketValue() {
+	public Double getMarketValue() {
 		return marketValue;
 	}
 
-	public void setMarketValue(BigDecimal marketValue) {
+	public void setMarketValue(Double marketValue) {
 		this.marketValue = marketValue;
 	}
 
