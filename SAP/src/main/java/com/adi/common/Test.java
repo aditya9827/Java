@@ -22,24 +22,7 @@ public class Test {
 		
 		//Utility.parseDate("23-11-2013");
 		
-		SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yyyy");
-        String dateInString = "23-11-2013";
-
-        try {
-
-            Date date = formatter.parse(dateInString);
-            System.out.println(date);
-           // System.out.println(formatter.format(date));
-            
-            Calendar cal = Calendar.getInstance();
-            cal.setTime(date);
-            
-            cal.set
-            System.out.println(cal.getTime());
-
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
+		
 		
 
 	}
