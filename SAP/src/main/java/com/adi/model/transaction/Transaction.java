@@ -18,6 +18,10 @@ public class Transaction {
 	private Double marketValue;
 
 	private boolean priorityFlag;
+	
+	private int processingfee;
+	
+	private String dummyDate;
 
 	public String getTransactionId() {
 		return transactionId;
@@ -73,6 +77,22 @@ public class Transaction {
 
 	public void setPriorityFlag(boolean priorityFlag) {
 		this.priorityFlag = priorityFlag;
+	}
+
+	public int getProcessingfee() {
+		return processingfee;
+	}
+
+	public void setProcessingfee(int processingfee) {
+		this.processingfee = processingfee;
+	}
+
+	public String getDummyDate() {
+		return dummyDate;
+	}
+
+	public void setDummyDate(String dummyDate) {
+		this.dummyDate = dummyDate;
 	}
 
 }

@@ -5,7 +5,6 @@ public class FeeCalculator {
 	public static void main(String[] args) {
 		System.out.println("Initiating File processing");
 		
-		System.out.println("Checking for file availabilty");
 		
 		if(args.length != 0) {
 			System.out.println("File is available");

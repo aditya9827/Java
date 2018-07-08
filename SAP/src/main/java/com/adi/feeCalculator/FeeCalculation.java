@@ -1,33 +1,41 @@
 package com.adi.feeCalculator;
 
+import java.util.List;
+
+import com.adi.common.GenerateReport;
 import com.adi.file.CheckFileName;
 import com.adi.file.CheckFileNameImpl;
 import com.adi.file.CheckFileType;
 import com.adi.file.CheckFileTypeImpl;
 import com.adi.file.processing.ProcessFileAsPerExtension;
+import com.adi.model.transaction.Transaction;
 
 public class FeeCalculation {
 
 	private String filePath;
 	private String fileName;
 	private String fileExtension;
+	private List<Transaction> transactionList;
 
 	public void beginFeeCalculation(String filePath) {
 		this.filePath = filePath;
 		fileName = retrieveFilename(filePath);
 		fileExtension = retrieveFileExtension(fileName);
-		processFileAsPerExtension(fileExtension, this.filePath);
+		transactionList = processFileAsPerExtension(fileExtension, this.filePath);
+		
+		GenerateReport.generateReport(transactionList);
+		//System.out.println(transactionList);
+		
 
 	}
 
-	private void processFileAsPerExtension(String fileExtension2, String filePath) {
-		ProcessFileAsPerExtension.processFileAsPerExtension(fileExtension2, filePath);
+	private List<Transaction> processFileAsPerExtension(String fileExtension2, String filePath) {
+		return ProcessFileAsPerExtension.processFileAsPerExtension(fileExtension2, filePath);
 	}
 
 	private String retrieveFileExtension(String fileName2) {
 		CheckFileType fileType = new CheckFileTypeImpl();
 		return fileType.getFileType(fileName2);
-		// TODO Auto-generated method stub
 		
 	}
 
