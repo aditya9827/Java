@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Sep 23 11:16:20 IST 2018
+@default-spring-snapshots-https\://repo.spring.io/snapshot/.lastUpdated=1537681580884
+https\://repo.spring.io/snapshot/.error=Could not transfer artifact org.springframework.cloud\:spring-cloud-bus-dependencies\:pom\:2.1.0.BUILD-SNAPSHOT from/to spring-snapshots (https\://repo.spring.io/snapshot)\: The operation was cancelled.

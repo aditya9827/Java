@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Sep 23 11:19:59 IST 2018
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1537681580986
+https\://repo.spring.io/milestone/.lastUpdated=1537681799467
+https\://repo.spring.io/snapshot/.error=
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.springframework.security\:spring-security-bom\:pom\:5.1.0.RC2 from/to central (https\://repo.maven.apache.org/maven2)\: The operation was cancelled.
+https\://repo.spring.io/snapshot/.lastUpdated=1537681798857

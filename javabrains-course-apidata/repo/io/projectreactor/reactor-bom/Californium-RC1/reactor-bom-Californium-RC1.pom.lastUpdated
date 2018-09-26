@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Sep 23 11:19:48 IST 2018
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1537681580932
+https\://repo.spring.io/milestone/.lastUpdated=1537681788006
+https\://repo.spring.io/snapshot/.error=
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact io.projectreactor\:reactor-bom\:pom\:Californium-RC1 from/to central (https\://repo.maven.apache.org/maven2)\: The operation was cancelled.
+https\://repo.spring.io/snapshot/.lastUpdated=1537681787407

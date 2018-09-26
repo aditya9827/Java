@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.springframework.cloud</groupId>
+  <artifactId>spring-cloud-stream-binder-rabbit</artifactId>
+  <version>2.1.0.BUILD-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20180921.160319</timestamp>
+      <buildNumber>97</buildNumber>
+    </snapshot>
+    <lastUpdated>20180921160322</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <classifier>javadoc</classifier>
+        <extension>jar</extension>
+        <value>2.1.0.BUILD-20180921.160319-97</value>
+        <updated>20180921160319</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>2.1.0.BUILD-20180921.160319-97</value>
+        <updated>20180921160319</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>2.1.0.BUILD-20180921.160319-97</value>
+        <updated>20180921160319</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>2.1.0.BUILD-20180921.160319-97</value>
+        <updated>20180921160319</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

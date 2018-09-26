@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.springframework.cloud</groupId>
+  <artifactId>spring-cloud-starter-netflix</artifactId>
+  <version>2.1.0.BUILD-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20180925.230541</timestamp>
+      <buildNumber>407</buildNumber>
+    </snapshot>
+    <lastUpdated>20180925230541</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>2.1.0.BUILD-20180925.230541-407</value>
+        <updated>20180925230541</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

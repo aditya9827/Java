@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Sep 23 11:19:55 IST 2018
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1537681580966
+https\://repo.spring.io/milestone/.lastUpdated=1537681795546
+https\://repo.spring.io/snapshot/.error=
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.springframework\:spring-framework-bom\:pom\:5.1.0.RC3 from/to central (https\://repo.maven.apache.org/maven2)\: The operation was cancelled.
+https\://repo.spring.io/snapshot/.lastUpdated=1537681794944
