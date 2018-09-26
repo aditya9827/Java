@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-@Component("sgtPeppersBean")
+@Component(value = "sgtPeppersBean")
 public class SgtPeppers implements CompactDisc {
 
 	// private String title = "Sgt. Pepper's Lonely Hearts Club Band";
